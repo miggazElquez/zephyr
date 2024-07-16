@@ -1,0 +1,5 @@
+board:
+  name: cc2340r5_lp_em
+  vendor: ti
+  socs:
+  - name: cc2340r5

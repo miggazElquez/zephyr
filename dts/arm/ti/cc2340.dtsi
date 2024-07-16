@@ -1,0 +1,27 @@
+#include <arm/armv6-m.dtsi>
+
+
+/ {
+	chosen {
+
+	};
+
+	cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        cpu@0 {
+        	device_type = "cpu";
+        	compatible = "arm,cortex-m0+";
+        	reg = <0>;
+        };
+	};
+
+	soc {
+
+	};
+};
+
+&nvic {
+	arm,num-irq-priority-bits = <3>;
+};

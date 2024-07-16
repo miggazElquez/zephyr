@@ -1,0 +1,5 @@
+config SYS_CLOCK_HW_CYCLES_PER_SEC
+	default 48000000
+
+config NUM_IRQS
+	default 300  #I don't know the right value, so I just put a big enough value for now.

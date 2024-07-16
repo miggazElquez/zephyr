@@ -17,6 +17,9 @@ family:
     socs:
     - name: cc3220sf
     - name: cc3235sf
+  - name: cc23xx
+    socs:
+    - name: cc2340r5
   - name: msp432p4xx
     socs:
     - name: msp432p401r

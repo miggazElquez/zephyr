@@ -1,0 +1,2 @@
+config BOARD_CC2340R5_LP_EM
+	select SOC_CC2340R5
